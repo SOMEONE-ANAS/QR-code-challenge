@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(213, 225, 239);
+    overflow: hidden;
+}
+
+#main-content {
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#contents {
+    margin-top: 50px;
+    background-color: white;
+    padding: 10px;
+    border: 0 white solid;
+    border-radius: 10px;
+}
+
+#QR-Code-img {
+    width: 300px;
+}
+
+#main-text {
+    color: black;
+    font-family: Outfit;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+#Secondary-text {
+    color: black;
+    font-family: Outfit;
+    font-weight: 400;
+}
+
+@media (max-width: 375px) {
+    /* for screen resolution up to 375px (Mobile) */
+}
+@media (max-width: 1440px) {
+    /* for screen resolution up to 1440px (Desktop) */
+}
